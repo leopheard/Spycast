@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.spycast" name="Spycast" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">Spycast</summary>
+    <description lang="en">TOP SECRET Personal Attention, SpyCast Listeners Known to be the podcast real spies listen to -(STOP)- eavesdrop on conversations with high level sources from around the world -(STOP)- spychiefs molehunters defectors covert operators analysts cyberwarriors technologists debriefed by SPY Historian Hammond -(STOP)- stories secrets tradecraft and technology discussed -(STOP)- museum confirmed to have greatest collection of artifacts on the subject anywhere in the world -(STOP)</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/Spycast</source>
+    <website>https://www.spymuseum.org/spycast</website>
+        	<assets>
+			<icon>resources/media/1.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/2.jpg</screenshot>
+			<screenshot>resources/media/3.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
